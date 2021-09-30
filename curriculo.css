@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 297mm;
+    width: 210mm;
+    font-family: Cambria;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+main {
+    padding-top: 1cm !important;
+    padding-left: 2cm !important;
+    padding-right: 2cm !important;
+}
+
+header{
+    background-color: #184ca1;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside !important;
+}
+
+#contato li {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#contato ul {
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+ul img {
+    width: 1em;
+    vertical-align: middle;
+}
+
+main{
+    font-size: 14pt;
+    padding: 3% 5% 5% 5%;
+}
+
+main h3 {
+    font-size: 18pt;
+    margin-bottom: 2%;
+}
+
+main p, main h4, main div{
+    padding-left: 35px;
+}
+
+main li {
+    margin-bottom: 5px;
+}
+
+.secao {
+    padding-top: 3%;
+}
+
+#habilidades, #habilidades > div{
+    padding-left: 0;
+}
+
+#habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nivel-habilidade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14pt;
+}
+
+.nivel-habilidade li {
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+
+li > div{
+    height: 14pt;
+}
+
+.habilidade-sim {
+    color: #184ca1;
+}
+
+.habilidade-nao {
+    color: grey;
+}
+
+.habilidade {
+    text-align: left;
+    margin-top: -1.5px;
+}
+
+#programacao-linguagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#programacao-linguagens {
+    padding-left: 0;
+}
+
+#programacao-linguagens ul {
+    list-style: disc;
+}
